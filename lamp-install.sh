@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Simple install script for setting up a new LAMP stack on a fresh Amazon instance
+# Tested with AMI ID: ami-f5200a81
 #
 # Easiest way to install is probably running the following line:
 # curl https://github.com/tdolsen/aws-install/raw/master/lamp-install.sh | sh
@@ -24,9 +25,6 @@ sudo touch /var/www/index.html
 
 # Restart Apache
 sudo apache2ctl restart
-
-# Set up some nice tools
-sudo apt-get -qqy install rcconf
 
 # Clean up services
 sudo service db2 stop
