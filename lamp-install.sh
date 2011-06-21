@@ -21,7 +21,7 @@ sudo apt-get -qqy install php5-curl php5-gd php5-imagick php5-json php5-mcrypt p
 mkdir ~/DB2
 sudo mv /var/www/* ~/DB2/
 sudo mv /var/www/.ssh ~/DB2/.ssh
-sudo touch /var/www/index.html
+sudo echo "hello" > /var/www/index.html
 
 # Restart Apache
 sudo apache2ctl restart
