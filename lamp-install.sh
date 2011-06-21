@@ -4,7 +4,7 @@
 # Tested with AMI ID: ami-f5200a81
 #
 # Easiest way to install is probably running the following line:
-# curl https://github.com/tdolsen/aws-install/raw/master/lamp-install.sh | sh
+# curl https://raw.github.com/tdolsen/aws-install/master/lamp-install.sh | sh
 
 # Installing the LAMP stack
 sudo apt-get update
